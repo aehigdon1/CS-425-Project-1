@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/CS_425_Project_1">
+    
+    <Resource
+        name="jdbc/db_pool" type="javax.sql.DataSource" useSSL="false"
+        driverClassName="com.mysql.cj.jdbc.Driver"
+        url="jdbc:mysql://localhost:3306/cs425_p1_db?zeroDateTimeBehavior=CONVERT_TO_NULL&amp;useSSL=false&amp;serverTimezone=America/Chicago&amp;allowPublicKeyRetrieval=true&amp;autoReconnect=true"
+        username="p1_user" password="CS425!p1user" auth="Container"
+        autoReconnect="true" initialSize="10" maxActive="100"
+        logAbandoned="true" removeAbandoned="true" removeAbandonedTimeout="60"
+        maxIdle="30" maxWait="10000" testOnBorrow="true" testOnReturn="false"
+        validationQuery="SELECT 1" validationQueryTimeout="-1" />
+    
+</Context>
